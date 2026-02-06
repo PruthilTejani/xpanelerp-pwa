@@ -44,7 +44,7 @@
 
     function handleFooterAction(action) {
         switch (action) {
-            case 'home':
+            case 'dashboard':
                 const menuToggle = document.querySelector('.o_grid_apps_menu__button');
                 if (menuToggle) {
                     menuToggle.click();
@@ -55,7 +55,7 @@
             case 'timesheet':
                 window.location.href = '/web?action=hr_timesheet.act_hr_timesheet_line';
                 break;
-            case 'ai':
+            case 'assistant':
                 break;
             case 'analytics':
                 window.location.href = '/odoo/dashboards';

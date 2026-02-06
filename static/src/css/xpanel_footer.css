@@ -1,20 +1,28 @@
 /* XpanelERP Footer Navigation Styles */
 
-body,
+body.o_web_client,
 .app-menu-container {
     padding-bottom: 64px !important;
 }
 
-.o_navbar_mobile.show .offcanvas-body {
+body.o_web_client .o_navbar_mobile.show .offcanvas-body {
     padding-bottom: 78px !important;
 }
 
-.o-mail-ChatHub .o-mail-ChatWindow .o-mail-Composer {
+body.o_web_client .o-mail-ChatHub .o-mail-ChatWindow .o-mail-Composer {
     margin-bottom: 80px !important;
 }
 
-.o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropdownMenu {
+body.o_web_client .o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropdownMenu {
     padding-bottom: 64px !important;
+}
+
+.xpanel-footer {
+    display: none;
+}
+
+body.o_web_client .xpanel-footer {
+    display: block;
 }
 
 .xpanel-footer {
@@ -29,11 +37,11 @@ body,
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.o_loading_indicator {
+body.o_web_client .o_loading_indicator {
     margin-bottom: 64px !important;
 }
 
-.xpanel-footer-container {
+body.o_web_client .xpanel-footer-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,7 +51,7 @@ body,
     padding: 0 8px;
 }
 
-.xpanel-footer-btn {
+body.o_web_client .xpanel-footer-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,19 +67,19 @@ body,
     outline: none;
 }
 
-.xpanel-footer-btn:hover {
+body.o_web_client .xpanel-footer-btn:hover {
     background-color: #1a1a1a;
     transform: translateY(-2px);
 }
 
-.xpanel-footer-icon {
+body.o_web_client .xpanel-footer-icon {
     width: 24px;
     height: 24px;
     stroke: #ffffff;
     margin-bottom: 4px;
 }
 
-.xpanel-footer-label {
+body.o_web_client .xpanel-footer-label {
     font-size: 11px;
     font-weight: 500;
     color: #ffffff;
@@ -122,34 +130,34 @@ body,
         display: none;
     }
 
-    body,
+    body.o_web_client,
     .app-menu-container {
         padding-bottom: 0 !important;
     }
 
-    .o_navbar_mobile.show .offcanvas-body {
+    body.o_web_client .o_navbar_mobile.show .offcanvas-body {
         padding-bottom: 14px !important;
     }
 
-    .o_loading_indicator {
+    body.o_web_client .o_loading_indicator {
         margin-bottom: 0 !important;
     }
 
-    .o-mail-ChatHub .o-mail-ChatWindow .o-mail-Composer {
+    body.o_web_client .o-mail-ChatHub .o-mail-ChatWindow .o-mail-Composer {
         margin-bottom: 16px !important;
     }
 
-    .o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropdownMenu {
+    body.o_web_client .o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropdownMenu {
         padding-bottom: 0 !important;
     }
 }
 
-.modal-open .xpanel-footer {
+body.modal-open .xpanel-footer {
     z-index: 1040;
 }
 
-.xpanel-footer,
-.xpanel-footer-container,
-.xpanel-footer-btn {
+body.o_web_client .xpanel-footer,
+body.o_web_client .xpanel-footer-container,
+body.o_web_client .xpanel-footer-btn {
     background-color: #000000;
 }
