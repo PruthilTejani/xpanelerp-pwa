@@ -1,0 +1,155 @@
+/* XpanelERP Footer Navigation Styles */
+
+body,
+.app-menu-container {
+    padding-bottom: 64px !important;
+}
+
+.o_navbar_mobile.show .offcanvas-body {
+    padding-bottom: 78px !important;
+}
+
+.o-mail-ChatHub .o-mail-ChatWindow .o-mail-Composer {
+    margin-bottom: 80px !important;
+}
+
+.o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropdownMenu {
+    padding-bottom: 64px !important;
+}
+
+.xpanel-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background-color: #000000;
+    border-top: 1px solid #333333;
+    z-index: 9998;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.o_loading_indicator {
+    margin-bottom: 64px !important;
+}
+
+.xpanel-footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.xpanel-footer-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: all 0.2s ease;
+    flex: 1;
+    min-width: 0;
+    outline: none;
+}
+
+.xpanel-footer-btn:hover {
+    background-color: #1a1a1a;
+    transform: translateY(-2px);
+}
+
+.xpanel-footer-icon {
+    width: 24px;
+    height: 24px;
+    stroke: #ffffff;
+    margin-bottom: 4px;
+}
+
+.xpanel-footer-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .xpanel-footer-btn {
+        padding: 6px 8px;
+    }
+
+    .xpanel-footer-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .xpanel-footer-label {
+        font-size: 10px;
+    }
+
+    .xpanel-footer-btn:hover {
+        background-color: #000000 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .xpanel-footer-btn {
+        padding: 4px 6px;
+    }
+
+    .xpanel-footer-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .xpanel-footer-label {
+        font-size: 9px;
+    }
+}
+
+@media (max-height: 500px) {
+    .xpanel-footer {
+        display: none;
+    }
+
+    body,
+    .app-menu-container {
+        padding-bottom: 0 !important;
+    }
+
+    .o_navbar_mobile.show .offcanvas-body {
+        padding-bottom: 14px !important;
+    }
+
+    .o_loading_indicator {
+        margin-bottom: 0 !important;
+    }
+
+    .o-mail-ChatHub .o-mail-ChatWindow .o-mail-Composer {
+        margin-bottom: 16px !important;
+    }
+
+    .o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropdownMenu {
+        padding-bottom: 0 !important;
+    }
+}
+
+.modal-open .xpanel-footer {
+    z-index: 1040;
+}
+
+.xpanel-footer,
+.xpanel-footer-container,
+.xpanel-footer-btn {
+    background-color: #000000;
+}
