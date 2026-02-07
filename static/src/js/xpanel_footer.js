@@ -44,18 +44,20 @@
 
     function handleFooterAction(action) {
         switch (action) {
-            case 'dashboard':
-                const menuToggle = document.querySelector('.o_grid_apps_menu__button');
-                if (menuToggle) {
-                    menuToggle.click();
-                } else {
-                    window.location.href = '/web';
-                }
+            case 'console':
+                alert("This feature will be available soon. You will be notified once it is ready.");
+                // const menuToggle = document.querySelector('.o_grid_apps_menu__button');
+                // if (menuToggle) {
+                //     menuToggle.click();
+                // } else {
+                //     window.location.href = '/web';
+                // }
                 break;
-            case 'timesheet':
+            case 'Worklogs':
                 window.location.href = '/web?action=hr_timesheet.act_hr_timesheet_line';
                 break;
             case 'assistant':
+                alert("This feature will be available soon. You will be notified once it is ready.");
                 break;
             case 'analytics':
                 window.location.href = '/odoo/dashboards';

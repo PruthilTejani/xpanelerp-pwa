@@ -28,8 +28,8 @@
     ],
     "shortcuts": [
         {
-            "name": "Timesheet",
-            "short_name": "Timesheet",
+            "name": "Worklogs",
+            "short_name": "Worklogs",
             "url": "/web?action=hr_timesheet.act_hr_timesheet_line",
             "icons": [
                 {

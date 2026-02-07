@@ -100,22 +100,22 @@
         <template id="xpanel_footer_template" name="XpanelERP Footer Navigation">
             <div id="xpanel_footer" class="xpanel-footer">
                 <div class="xpanel-footer-container">
-                    <button class="xpanel-footer-btn" data-action="dashboard">
+                    <button class="xpanel-footer-btn" data-action="console">
                         <svg class="xpanel-footer-icon" viewBox="0 0 24 24" fill="currentColor">
                             <rect x="2" y="2" width="9" height="9" rx="1"></rect>
                             <rect x="14" y="2" width="9" height="9" rx="1"></rect>
                             <rect x="14" y="14" width="9" height="9" rx="1"></rect>
                             <rect x="2" y="14" width="9" height="9" rx="1"></rect>
                         </svg>
-                        <span class="xpanel-footer-label">Dashboard</span>
+                        <span class="xpanel-footer-label">Console</span>
                     </button>
                     
-                    <button class="xpanel-footer-btn" data-action="timesheet">
+                    <button class="xpanel-footer-btn" data-action="worklogs">
                         <svg class="xpanel-footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                         </svg>
-                        <span class="xpanel-footer-label">Timesheet</span>
+                        <span class="xpanel-footer-label">Worklogs</span>
                     </button>
                     
                     <button class="xpanel-footer-btn" data-action="assistant">
