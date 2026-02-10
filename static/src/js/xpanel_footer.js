@@ -53,7 +53,7 @@
                 //     window.location.href = '/web';
                 // }
                 break;
-            case 'Worklogs':
+            case 'worklogs':
                 window.location.href = '/web?action=hr_timesheet.act_hr_timesheet_line';
                 break;
             case 'assistant':

@@ -22,7 +22,7 @@ body.o_web_client .o_popover.o-mail-DiscussSystray.o-mail-systrayFullscreenDropd
 }
 
 body.o_web_client .xpanel-footer {
-    display: block;
+    display: block !important;
 }
 
 .xpanel-footer {
@@ -48,7 +48,6 @@ body.o_web_client .xpanel-footer-container {
     height: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 8px;
 }
 
 body.o_web_client .xpanel-footer-btn {
